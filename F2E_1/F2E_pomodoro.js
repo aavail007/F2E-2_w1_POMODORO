@@ -22,6 +22,7 @@ $(function () {
         $("#countdownID").text("25:00");
         $(".playButton").removeClass("hide");
         $(".pauseButton").addClass("hide");
+        $("#circle").addClass("time_play").removeClass("time_ing");
     });
 
 });
